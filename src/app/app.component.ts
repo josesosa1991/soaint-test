@@ -46,8 +46,12 @@ export class AppComponent implements OnInit {
       "type": "http://www.w3.org/ns/dcat#Distribution"
     }
 
-    this.items.push(itemAdd);
+    this.items =  [ ...this.items, itemAdd ];
     this.totalRecords=this.items.length;
+
+    (document.getElementById('new-title') as HTMLInputElement).value = "";
+    (document.getElementById('new-about') as HTMLInputElement).value = "";
+    (document.getElementById('new-acces') as HTMLInputElement).value = "";
   }
 
   eliminar(item: any) {
