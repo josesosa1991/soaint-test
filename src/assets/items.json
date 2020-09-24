@@ -1,0 +1,112 @@
+{
+    "format": "linked-data-api",
+    "version": "0.2",
+    "result": {
+        "_about": "http://datos.gob.es/apidata/catalog/distribution.json",
+        "definition": "http://datos.gob.es/apidata/catalog/meta/distribution.json",
+        "extendedMetadataVersion": "http://datos.gob.es/apidata/catalog/distribution.json?_metadata=all",
+        "first": "http://datos.gob.es/apidata/catalog/distribution.json?_page=0",
+        "hasPart": "http://datos.gob.es/apidata/catalog/distribution.json",
+        "isPartOf": "http://datos.gob.es/apidata/catalog/distribution.json",
+        "items": [
+            {
+                "_about": "http://datos.gob.es/catalogo/ea0002678-informes-de-auditoria-de-cuentas-de-red-es/resource/ba1dd88b-ee69-4dad-adfd-8fb57cd5f7b0",
+                "accessURL": "http://ondemand2.redes.ondemand.flumotion.com/redes/ondemand2/Portal_Redes/2017/Junio/Informe_de_auditoria_2016_Red.es.pdf",
+                "byteSize": 365970.0,
+                "format": "http://publications.europa.eu/resource/authority/file-type/PDF",
+                "title": "Informe de auditoría de cuentas de Red.es - 2016",
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/ea0002678-cuentas-anuales-de-red-es/resource/8c908197-2828-4aa6-93d2-9fa77678d52d",
+                "accessURL": "http://ondemand2.redes.ondemand.flumotion.com/redes/ondemand2/Portal_Redes/2017/Junio/Cuentas_anuales_2016_Red.es.pdf",
+                "byteSize": 449339.0,
+                "format": "http://publications.europa.eu/resource/authority/file-type/PDF",
+                "title": "Cuentas anuales de Red.es - 2016",
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/e04957201-buscador-de-acuerdos-y-decisiones-cnmc/resource/5e3ecbae-ed16-4114-9da7-9210b3254da8",
+                "accessURL": "https://www.cnmc.es/acuerdos-y-decisiones",
+                "format": "http://publications.europa.eu/resource/authority/file-type/XHTML",
+                "title": "Buscador de acuerdos y decisiones",
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/e04957201-buscador-de-informes-cnmc/resource/688b8c81-7398-4320-ba0b-6c5c17b56427",
+                "accessURL": "https://www.cnmc.es/informes",
+                "format": "http://publications.europa.eu/resource/authority/file-type/XHTML",
+                "title": "Buscador de informes",
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/l02000008-municipios-adheridos-a-la-red-local-de-archivos-municipales/resource/e0606413-eca2-4e6e-b3a2-cf6f6a985a10",
+                "accessURL": "http://www.diba.cat/web/opc/actuacions_arxius",
+                "format": "http://publications.europa.eu/resource/authority/file-type/HTML",
+                "title": [
+                    "Municipios adheridos a la red de archivos municipales",
+                    "Municipis adherits a la Xarxa d'Arxius Municipals"
+                ],
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/l02000008-museos-agenda-de-actividades/resource/24ed86ea-f72b-4626-af52-eba876ee2eff",
+                "accessURL": "http://do.diba.cat/api/dataset/actesmuseus/pag-ini/1/pag-fi/100/format/json",
+                "format": "http://publications.europa.eu/resource/authority/file-type/JSON",
+                "title": [
+                    "Agenda de los museos",
+                    "Agenda dels museus"
+                ],
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/l02000008-museos-agenda-de-actividades/resource/3612e9fb-82f0-4ef5-8a14-98bd939d6c59",
+                "accessURL": "http://do.diba.cat/data/ds/actesmuseus/calendar",
+                "format": "http://publications.europa.eu/resource/authority/file-type/HTML",
+                "title": [
+                    "Agenda de los museos (Calendario)",
+                    "Agenda dels museus (Calendari)"
+                ],
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/l02000008-museos-agenda-de-actividades/resource/890fa2fe-1069-4398-af64-acc47874d6d6",
+                "accessURL": "http://do.diba.cat/data/ds/actesmuseus/graella",
+                "format": "http://publications.europa.eu/resource/authority/file-type/HTML",
+                "title": [
+                    "Agenda de los museos (Tabla)",
+                    "Agenda dels museus (Graella)"
+                ],
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/l02000008-museos-agenda-de-actividades/resource/af158836-b7e8-4ef3-9742-4e4cb75b7221",
+                "accessURL": "http://do.diba.cat/data/ds/actesmuseus/mapa",
+                "format": "http://publications.europa.eu/resource/authority/file-type/HTML",
+                "title": [
+                    "Agenda dels museus (Mapa)",
+                    "agenda de los museos (Mapa)"
+                ],
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            },
+            {
+                "_about": "http://datos.gob.es/catalogo/l02000008-museos-agenda-de-actividades/resource/b89c007e-d280-4676-a53b-cc55e3d222fb",
+                "accessURL": "http://do.diba.cat/api/dataset/actesmuseus/pag-ini/1/pag-fi/100/format/csv",
+                "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+                "title": [
+                    "Agenda de los museos",
+                    "Agenda dels museus"
+                ],
+                "type": "http://www.w3.org/ns/dcat#Distribution"
+            }
+        ],
+        "itemsPerPage": 10,
+        "next": "http://datos.gob.es/apidata/catalog/distribution.json?_page=1",
+        "page": 0,
+        "startIndex": 1,
+        "type": [
+            "http://purl.org/linked-data/api/vocab#ListEndpoint",
+            "http://purl.org/linked-data/api/vocab#Page"
+        ]
+    }
+}
